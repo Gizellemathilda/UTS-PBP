@@ -28,5 +28,13 @@ Proyek ini merupakan website portofolio pribadi saya Gizelle, mahasiswa **Teknik
 
 Berikut adalah tampilan antarmuka website:
 
+![Tampilan Navbar](assets/nav.png)
+![Tampilan Menu Beranda](assets/menu-beranda.png)
+![Tampilan Menu Tentang](assets/menu-tentang.png)
+![Tampilan Menu Pendidikan](assets/menu-pendidikan.png)
+![Tampilan Menu Pengalaman](assets/menu-pengalaman.png)
+![Tampilan Menu Hubungi Saya](assets/menu-hubungi-saya.png)
+![Tampilan Footer](assets/footer.png)
+
 
 
