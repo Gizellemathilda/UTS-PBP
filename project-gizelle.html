@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Gizelle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="inicss.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="logo">Gizelle<span>.</span></a>
+
+        <ul class="link-menu" id="menu-navigasi">
+            <li><a href="#beranda" class="aktif">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#Kontak">Hubungi Saya</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="beranda">
+        <div class="kotak-info">
+            <h1>Halo, Aku<br><span>Gizelle Mamentu!</span></h1>
+            <p>Mahasiwa Teknik Informatika yang sedang tertarik pada bidang robotika dan website design</p>
+
+            <div class="kotak-tombol">
+                <a href="CV GIZELLE.pdf" class="tombol">CV GIZELLE</a>
+            </div>
+        </div>
+
+        <div class="kotak-gambar">
+            <div id="sliderFoto" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#sliderFoto" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#sliderFoto" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#sliderFoto" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="foto2ya.jpg" class="d-block w-100" alt="Foto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto1ya.jpg" class="d-block w-100" alt="Foto 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto3ya.png" class="d-block w-100" alt="Foto 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sliderFoto" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sliderFoto" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang">
+        <div class="kotak-tentang">
+            <div class="info-tentang">
+                <h1><span>Tentang Aku</span></h1>
+                <p>Mahasiswa semester 3 Jurusan Teknik Informatika Universitas Negeri Surabaya, memiliki IPK 3,95.
+                    Tertarik dalam bidang Internet of Things dan robotika. Berpengalaman dalam membantu mempercantik
+                    website dan mengintegrasi website dengan MQTT dan database menggunakan laragon. Memiliki
+                    kemampuan mengelola waktu yang baik dan mampu bekerja sama dengan tim.</p>
+            </div>
+
+            <h2><span>Skill yang Lagi Dipelajari</span></h2>
+            <div class="daftar-skill">
+                <ul>
+                    <li><i class='bx bx-code-alt'></i> C++ (masih tahap belajar)</li>
+                    <li><i class='bx bx-code-alt'></i> IoT Development (Arduino & ESP32)</li>
+                </ul>
+                <ul>
+                    <li><i class='bx bx-code-alt'></i> HTML & CSS (bisa bikin web sederhana)</li>
+                    <li><i class='bx bx-code-alt'></i> JavaScript (masih tahap belajar)</li>
+                </ul>
+            </div>
+        </div>
+        <img src="foto1ya.jpg" alt="Foto Gizelle">
+    </section>
+
+    <section id="pendidikan">
+        <h1 class="judul-section"><span>Pendidikan</span></h1>
+        <div class="wadah-timeline">
+
+            <div class="item-timeline">
+                <div class="bulat-timeline"></div>
+                <div class="isi-timeline">
+                    <div class="ikon-timeline"><i class='bx bxs-graduation'></i></div>
+                    <h3>Universitas Negeri Surabaya</h3>
+                    <span class="tanggal-timeline">2024 - Sekarang</span>
+                    <h4>S1 Teknik Informatika</h4>
+                    <p>Kuliah Informatika sangat membuka ilmu baru bagi aku! terutama karena aku yang awalnya tidak tahu
+                        apa apa tentang coding, tapi dari kuliah ini aku telah banyak belajar ilmu baru!</p>
+                </div>
+            </div>
+
+            <div class="item-timeline">
+                <div class="bulat-timeline"></div>
+                <div class="isi-timeline">
+                    <div class="ikon-timeline"><i class='bx bxs-school'></i></div>
+                    <h3>SMA Negeri 3 Batam</h3>
+                    <span class="tanggal-timeline">2021 - 2024</span>
+                    <h4>Jurusan MIPA</h4>
+                    <p>Masa-masa SMA yang seru selama 3 tahun! Banyak Pengalaman kegiatan dan ekstrakurikuler yang aku
+                        jalani!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="pengalaman">
+        <h1 class="judul-section"><span>Pengalaman Organisasi & Lomba</span></h1>
+
+        <div class="wadah-pengalaman">
+            <div class="kategori-pengalaman">
+                <h2><i class='bx bxs-group'></i>Organisasi</h2>
+                <div class="kartu-pengalaman">
+                    <div class="ikon-pengalaman"><i class='bx bxs-user-badge'></i></div>
+                    <div class="detail-pengalaman">
+                        <h3>Dewo Robotic</h3>
+                        <span class="tanggal-pengalaman">2025 - Sekarang</span>
+                        <h4>Tim Software</h4>
+                        <p>Ikut organisasi Robotik ini bikin aku nambah pengalaman dan relasi!. Di sini, aku belajar
+                            banyak ilmu baru tentang robotika!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kategori-pengalaman">
+                <h2><i class='bx bxs-trophy'></i>Prestasi</h2>
+                <div class="kartu-pengalaman prestasi">
+                    <div class="ikon-pengalaman trofi"><i class='bx bxs-medal'></i></div>
+                    <div class="detail-pengalaman">
+                        <h3>International IoT</h3>
+                        <span class="tanggal-pengalaman">Tahun 2025</span>
+                        <h4>Medali Silver</h4>
+                        <p>Pengalaman pertama ikut lomba bidang Iot bersama Teman-teman!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Kontak">
+        <h1 class="header"><span>Rekrut Saya!</span></h1>
+        <form id="Kontak-form">
+            <div class="input-box">
+                <span>Nama Kamu</span>
+                <input type="text" id="name" placeholder="Nama Lengkap Anda" required>
+            </div>
+
+            <div class="input-box">
+                <span>Email Kamu</span>
+                <input type="email" id="email" placeholder="Email anda yang bisa dihubungi" required>
+            </div>
+
+            <div class="input-box">
+                <span>Pesan Kamu</span>
+                <textarea id="message" placeholder="Kami Tertarik Merekrut anda sebagai bagian di perusahaan kami!" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="kolom-kiri">
+            <div class="kotak-kolom"><i class='bx bxs-location-plus'></i><span>Surabaya, Jawa Timur</span></div>
+            <div class="kotak-kolom"><i class='bx bxs-phone'></i><span>+62-877-947-5366</span></div>
+            <div class="kotak-kolom"><i class='bx bxs-envelope'></i><span>gizellemmamentu@gmail.com</span></div>
+        </div>
+
+        <div class="kolom-kanan">
+            <span>Website Gizelle Mamentu - 24051204146 - TIE 2024</span>
+            <p>Website ini merupakan project UTS yang saya buat untuk menampilkan portofolio pribadi. Melalui project
+                UTS, saya belajar menerapkan HTML, CSS, dan JavaScript.</p>
+            <div class="ikon-sosmed">
+                <a href="https://github.com/Gizellemathilda" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/gizellemathilda?igsh=M252Z2RkNTZ4dHYx&utm_source=qr"
+                    title="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=gizellemmamentu@gmail.com&tf=cm" title="gmail"><i class='bx bxs-envelope'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="inijs.js"></script>
+</body>
+
+</html>
