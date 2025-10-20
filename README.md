@@ -24,7 +24,7 @@ Proyek ini merupakan website portofolio pribadi saya Gizelle, mahasiswa **Teknik
 - **Google Fonts (Poppins)** 
 
 
-## 🖼️ Tampilan Website
+## Tampilan Website
 
 Berikut adalah tampilan antarmuka website:
 
@@ -36,5 +36,7 @@ Berikut adalah tampilan antarmuka website:
 ![Tampilan Menu Hubungi Saya](assets/menu-hubungi-saya.png)
 ![Tampilan Footer](assets/footer.png)
 
+## Link Youtube Presentasi
+[Lihat video Presentasi di YouTube](https://youtu.be/EpN6gL4SiPI?si=BRcFNn4EQBYZc7_u)
 
 
