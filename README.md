@@ -4,7 +4,7 @@
 **NIM : 24051204146**  
 **Kelas : TI E 2024**  
 
-Proyek ini merupakan website portofolio pribadi saya Gizelle, mahasiswa **Teknik Informatika Universitas Negeri Surabaya (UNESA)**.  Website ini dibuat sebagai **proyek UTS** untuk menampilkan profil pribadi, pengalaman, pendidikan, dan keahlian menerapkan hasil pembelajaran HTML, CSS dan JS.
+Proyek ini merupakan website portofolio pribadi saya Gizelle, mahasiswa Teknik Informatika Universitas Negeri Surabaya (UNESA).  Website ini dibuat sebagai proyek UTS untuk menampilkan profil pribadi, pengalaman, pendidikan, dan keahlian menerapkan hasil pembelajaran HTML, CSS dan JS.
 
 ## Fitur Utama
 - **Navigasi:** Menampilkan logo “Gizelle.” di bagian kiri dan daftar menu di bagian kanan. Menu terdiri dari Beranda, Tentang, Pendidikan, Pengalaman, dan kontak yang dapat diklik untuk berpindah ke setiap bagian halaman.
